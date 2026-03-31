@@ -1,0 +1,17 @@
+metric,value
+fred_rows,315
+fred_cols,79
+atlanta_rows,350
+atlanta_cols,17
+philly_ruc_rows,0
+philly_ruc_cols,0
+philly_cpi_rows,0
+philly_cpi_cols,0
+cpi_5yr_rows,230
+cpi_5yr_cols,3
+final_rows,315
+final_cols,97
+date_range_start,2000-01-01
+date_range_end,2026-03-01
+complete_cases,0
+complete_cases_pct,0.0

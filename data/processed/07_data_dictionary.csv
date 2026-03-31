@@ -1,0 +1,98 @@
+column_name,data_type,non_null_count,null_count,unique_values
+aaa_yield,float64,314,1,226
+ahe_manufacturing,float64,240,75,225
+ahe_private,float64,240,75,232
+atl_2026-01-12 00:00:00,float64,313,2,54
+atl_Unnamed: 1,float64,313,2,47
+atl_Unnamed: 10,float64,313,2,53
+atl_Unnamed: 11,float64,313,2,53
+atl_Unnamed: 13,float64,313,2,56
+atl_Unnamed: 14,float64,313,2,48
+atl_Unnamed: 15,float64,313,2,57
+atl_Unnamed: 16,float64,313,2,45
+atl_Unnamed: 2,float64,313,2,48
+atl_Unnamed: 3,float64,313,2,47
+atl_Unnamed: 4,float64,313,2,48
+atl_Unnamed: 5,float64,313,2,51
+atl_Unnamed: 6,float64,313,2,47
+atl_Unnamed: 7,float64,313,2,54
+atl_Unnamed: 8,float64,313,2,45
+atl_Unnamed: 9,float64,313,2,64
+avg_weeks_unemployed,float64,313,2,170
+awe_manufacturing,float64,314,1,284
+awe_private,float64,240,75,235
+awh_private,float64,240,75,14
+baa_yield,float64,314,1,232
+bank_credit,float64,315,0,315
+bbb_oas,float64,315,0,311
+breakeven_10y,float64,279,36,276
+breakeven_5y,float64,279,36,277
+building_permits,float64,313,2,277
+capacity_util,float64,314,1,314
+capex_orders,float64,313,2,312
+ci_loans,float64,314,1,314
+consumer_sentiment,float64,314,1,232
+cpi_all,float64,313,2,303
+cpi_core,float64,313,2,310
+cpi_food,float64,313,2,306
+cpi_less_shelter,float64,313,2,300
+cpi_medical,float64,313,2,313
+cpi_services_less_energy,float64,313,2,313
+cpi_services_less_rent,float64,313,2,307
+cpi_shelter,float64,313,2,313
+date,datetime64[us],315,0,315
+durable_orders,float64,313,2,313
+eci_total,float64,298,17,100
+eci_wages,float64,298,17,100
+epop_ratio,float64,313,2,69
+exp_5yr_cpi_CPI5YR,float64,0,315,0
+exp_5yr_cpi_QUARTER,float64,0,315,0
+fed_funds,float64,314,1,152
+forward_5y5y,float64,279,36,274
+hires_level,float64,303,12,283
+hires_rate,float64,303,12,21
+housing_starts,float64,313,2,287
+hy_oas,float64,315,0,314
+ip_manufacturing,float64,314,1,314
+ip_total,float64,314,1,313
+job_openings_level,float64,303,12,299
+kcfed_lmci_activity,float64,313,2,313
+kcfed_lmci_momentum,float64,313,2,313
+layoffs_discharges_level,float64,303,12,240
+layoffs_discharges_rate,float64,303,12,14
+lfpr,float64,313,2,59
+m2,float64,314,1,314
+michigan_1y,float64,314,1,40
+new_home_sales,float64,313,2,253
+output_per_hour,float64,310,5,104
+payrolls_construction,float64,314,1,287
+payrolls_manufacturing,float64,314,1,298
+payrolls_nonfarm,float64,314,1,311
+payrolls_private,float64,314,1,312
+payrolls_services,float64,314,1,310
+pce_core,float64,313,2,312
+pce_price,float64,313,2,309
+pce_services,float64,313,2,312
+pce_trimmed_12m,float64,313,2,163
+pce_trimmed_1m,float64,313,2,196
+prime_age_lfpr,float64,313,2,39
+prime_age_urate,float64,313,2,186
+quits_level,float64,303,12,287
+quits_rate,float64,303,12,19
+real_dpi,float64,313,2,313
+real_pi,float64,313,2,313
+real_pi_less_transfers,float64,313,2,313
+real_retail,float64,312,3,309
+recession,float64,314,1,2
+retail_advance,float64,313,2,313
+saving_rate,float64,313,2,306
+total_separations_level,float64,303,12,273
+total_separations_rate,float64,303,12,16
+treasury_10y,float64,314,1,215
+treasury_1m,float64,297,18,290
+treasury_2y,float64,315,0,314
+treasury_3m,float64,315,0,312
+u6_rate,float64,313,2,88
+unemployment_level,float64,313,2,297
+unemployment_rate,float64,313,2,65
+unit_labor_costs,float64,310,5,104

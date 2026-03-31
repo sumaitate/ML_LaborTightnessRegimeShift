@@ -1,0 +1,98 @@
+column,missing_count,missing_pct,non_null_count
+exp_5yr_cpi_CPI5YR,315,100.0,0
+exp_5yr_cpi_QUARTER,315,100.0,0
+awh_private,75,23.81,240
+ahe_manufacturing,75,23.81,240
+ahe_private,75,23.81,240
+awe_private,75,23.81,240
+breakeven_10y,36,11.43,279
+breakeven_5y,36,11.43,279
+forward_5y5y,36,11.43,279
+treasury_1m,18,5.71,297
+eci_total,17,5.4,298
+eci_wages,17,5.4,298
+hires_rate,12,3.81,303
+hires_level,12,3.81,303
+job_openings_level,12,3.81,303
+total_separations_rate,12,3.81,303
+total_separations_level,12,3.81,303
+quits_rate,12,3.81,303
+quits_level,12,3.81,303
+layoffs_discharges_rate,12,3.81,303
+layoffs_discharges_level,12,3.81,303
+output_per_hour,5,1.59,310
+unit_labor_costs,5,1.59,310
+real_retail,3,0.95,312
+atl_Unnamed: 13,2,0.63,313
+prime_age_urate,2,0.63,313
+atl_Unnamed: 11,2,0.63,313
+housing_starts,2,0.63,313
+building_permits,2,0.63,313
+new_home_sales,2,0.63,313
+atl_Unnamed: 10,2,0.63,313
+durable_orders,2,0.63,313
+capex_orders,2,0.63,313
+atl_Unnamed: 9,2,0.63,313
+atl_Unnamed: 8,2,0.63,313
+atl_Unnamed: 7,2,0.63,313
+atl_Unnamed: 6,2,0.63,313
+kcfed_lmci_momentum,2,0.63,313
+atl_Unnamed: 5,2,0.63,313
+atl_Unnamed: 4,2,0.63,313
+atl_Unnamed: 3,2,0.63,313
+atl_Unnamed: 2,2,0.63,313
+atl_Unnamed: 1,2,0.63,313
+unemployment_level,2,0.63,313
+u6_rate,2,0.63,313
+epop_ratio,2,0.63,313
+lfpr,2,0.63,313
+prime_age_lfpr,2,0.63,313
+atl_2026-01-12 00:00:00,2,0.63,313
+kcfed_lmci_activity,2,0.63,313
+avg_weeks_unemployed,2,0.63,313
+retail_advance,2,0.63,313
+unemployment_rate,2,0.63,313
+atl_Unnamed: 16,2,0.63,313
+atl_Unnamed: 15,2,0.63,313
+atl_Unnamed: 14,2,0.63,313
+cpi_all,2,0.63,313
+cpi_core,2,0.63,313
+cpi_less_shelter,2,0.63,313
+cpi_services_less_rent,2,0.63,313
+cpi_services_less_energy,2,0.63,313
+cpi_shelter,2,0.63,313
+cpi_medical,2,0.63,313
+cpi_food,2,0.63,313
+pce_price,2,0.63,313
+pce_core,2,0.63,313
+pce_trimmed_12m,2,0.63,313
+pce_trimmed_1m,2,0.63,313
+pce_services,2,0.63,313
+saving_rate,2,0.63,313
+real_dpi,2,0.63,313
+real_pi,2,0.63,313
+real_pi_less_transfers,2,0.63,313
+recession,1,0.32,314
+payrolls_construction,1,0.32,314
+m2,1,0.32,314
+michigan_1y,1,0.32,314
+ip_total,1,0.32,314
+awe_manufacturing,1,0.32,314
+baa_yield,1,0.32,314
+aaa_yield,1,0.32,314
+fed_funds,1,0.32,314
+treasury_10y,1,0.32,314
+payrolls_manufacturing,1,0.32,314
+payrolls_private,1,0.32,314
+payrolls_services,1,0.32,314
+payrolls_nonfarm,1,0.32,314
+ci_loans,1,0.32,314
+consumer_sentiment,1,0.32,314
+capacity_util,1,0.32,314
+ip_manufacturing,1,0.32,314
+bank_credit,0,0.0,315
+bbb_oas,0,0.0,315
+treasury_3m,0,0.0,315
+treasury_2y,0,0.0,315
+hy_oas,0,0.0,315
+date,0,0.0,315
