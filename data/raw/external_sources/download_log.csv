@@ -1,0 +1,5 @@
+file,url,path,status,bytes
+atlanta_wage_tracker,https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/datafiles/chcs/wage-growth-tracker/wage-growth-data.xlsx,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/atlanta_wage_tracker.xlsx,ok,292134
+philly_ruc_vintages,https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/real-time-data/data-files/xlsx/rucQvMd.xlsx,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/philly_ruc_vintages.xlsx,ok,567097
+philly_cpi_vintages,https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/real-time-data/data-files/xlsx/cpiQvMd.xlsx,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/philly_cpi_vintages.xlsx,ok,590396
+philly_spf_inflation,https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/historical-data/Inflation.xlsx,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/philly_spf_inflation.xlsx,ok,11724

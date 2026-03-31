@@ -1,0 +1,6 @@
+table,path,rows,cols
+atl_overall,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/key_raw_tables/atl_overall.csv,351,17
+atl_12ma,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/key_raw_tables/atl_12ma.csv,352,4
+phl_ruc,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/key_raw_tables/phl_ruc.csv,949,243
+phl_cpi,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/key_raw_tables/phl_cpi.csv,949,243
+spf_inflation,/Users/Sumaitat/Documents/Coding/ML_LaborTightnessRegimeShift/data/raw/external_sources/key_raw_tables/spf_inflation.csv,225,5

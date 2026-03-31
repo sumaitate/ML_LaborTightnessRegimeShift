@@ -1,0 +1,2 @@
+col,series_id,error
+michigan_5y,MICH5Y,FRED pulling failed for MICH5Y: Bad Request.  The series does not exist.

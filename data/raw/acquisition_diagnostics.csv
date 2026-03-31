@@ -1,0 +1,10 @@
+metric,value
+fred_rows,315
+fred_cols,78
+fred_failed,1
+external_ok,4
+external_failed,0
+required_cols_total,21
+required_cols_missing,0
+fred_start,2000-01-01
+fred_end,2026-03-01
