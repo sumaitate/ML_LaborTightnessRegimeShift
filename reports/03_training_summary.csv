@@ -1,0 +1,8 @@
+metric,value
+target_count,8
+cv_model_count,6
+hold_model_count,6
+cv_rows,200
+hold_rows,40
+start_date,2000-12-01
+end_date,2026-03-01

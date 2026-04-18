@@ -1,79 +1,79 @@
-col,series_id,title,freq,units,seasonal_adj,last_updated,obs_start,obs_end,raw_count,monthly_count,struct_miss,active_miss
-aaa_yield,AAA,Moody's Seasoned Aaa Corporate Bond Yield,M,Percent,Not Seasonally Adjusted,2026-03-02 10:17:47-06,1919-01-01,2026-02-01,314,314,0,0
-ahe_manufacturing,CES3000000003,"Average Hourly Earnings of All Employees, Manufacturing",M,Dollars per Hour,Seasonally Adjusted,2026-03-06 08:16:26-06,2006-03-01,2026-02-01,240,240,0,0
-ahe_private,CES0500000003,"Average Hourly Earnings of All Employees, Total Private",M,Dollars per Hour,Seasonally Adjusted,2026-03-06 08:16:10-06,2006-03-01,2026-02-01,240,240,0,0
-avg_weeks_unemployed,UEMPMEAN,Average Weeks Unemployed,M,Weeks,Seasonally Adjusted,2026-03-06 08:12:56-06,1948-01-01,2026-02-01,313,313,0,1
-awe_manufacturing,CES3000000008,"Average Hourly Earnings of Production and Nonsupervisory Employees, Manufacturing",M,Dollars per Hour,Seasonally Adjusted,2026-03-06 08:16:29-06,1939-01-01,2026-02-01,314,314,0,0
-awe_private,CES0500000011,"Average Weekly Earnings of All Employees, Total Private",M,Dollars per Week,Seasonally Adjusted,2026-03-06 08:16:08-06,2006-03-01,2026-02-01,240,240,0,0
-awh_private,AWHAETP,"Average Weekly Hours of All Employees, Total Private",M,Hours,Seasonally Adjusted,2026-03-06 08:16:16-06,2006-03-01,2026-02-01,240,240,0,0
-baa_yield,BAA,Moody's Seasoned Baa Corporate Bond Yield,M,Percent,Not Seasonally Adjusted,2026-03-02 10:17:45-06,1919-01-01,2026-02-01,314,314,0,0
-bank_credit,TOTBKCR,"Bank Credit, All Commercial Banks",W,Billions of U.S. Dollars,Seasonally Adjusted,2026-03-27 15:19:39-05,1973-01-03,2026-03-18,1368,315,0,0
-bbb_oas,BAMLC0A4CBBB,ICE BofA BBB US Corporate Index Option-Adjusted Spread,D,Percent,Not Seasonally Adjusted,2026-03-31 08:47:39-05,1996-12-31,2026-03-30,6852,315,0,0
-breakeven_10y,T10YIE,10-Year Breakeven Inflation Rate,D,Percent,Not Seasonally Adjusted,2026-03-31 16:03:32-05,2003-01-02,2026-03-31,5814,279,0,0
-breakeven_5y,T5YIE,5-Year Breakeven Inflation Rate,D,Percent,Not Seasonally Adjusted,2026-03-31 16:03:47-05,2003-01-02,2026-03-31,5814,279,0,0
-building_permits,PERMIT,New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units,M,Thousands of Units,Seasonally Adjusted Annual Rate,2026-03-27 15:00:43-05,1960-01-01,2026-01-01,313,313,0,0
-capacity_util,CUMFNS,Capacity Utilization: Manufacturing (SIC),M,Percent,Seasonally Adjusted,2026-03-16 08:19:53-05,1948-01-01,2026-02-01,314,314,0,0
-capex_orders,NEWORDER,Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft,M,Millions of Dollars,Seasonally Adjusted,2026-03-18 09:05:40-05,1992-02-01,2026-01-01,313,313,0,0
-ci_loans,BUSLOANS,"Commercial and Industrial Loans, All Commercial Banks",M,Billions of U.S. Dollars,Seasonally Adjusted,2026-03-27 15:48:29-05,1947-01-01,2026-02-01,314,314,0,0
-consumer_sentiment,UMCSENT,University of Michigan: Consumer Sentiment,M,Index 1966:Q1=100,Not Seasonally Adjusted,2026-03-27 10:02:30-05,1952-11-01,2026-02-01,314,314,0,0
-cpi_all,CPIAUCSL,Consumer Price Index for All Urban Consumers: All Items in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:55-05,1947-01-01,2026-02-01,313,313,0,1
-cpi_core,CPILFESL,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:49-05,1957-01-01,2026-02-01,313,313,0,1
-cpi_food,CPIUFDSL,Consumer Price Index for All Urban Consumers: Food in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:51-05,1947-01-01,2026-02-01,313,313,0,1
-cpi_less_shelter,CUSR0000SA0L2,Consumer Price Index for All Urban Consumers: All Items Less Shelter in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:47-05,1947-01-01,2026-02-01,313,313,0,1
-cpi_medical,CPIMEDSL,Consumer Price Index for All Urban Consumers: Medical Care in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:54-05,1947-01-01,2026-02-01,313,313,0,1
-cpi_services_less_energy,CUSR0000SASLE,Consumer Price Index for All Urban Consumers: Services Less Energy Services in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:53-05,1967-01-01,2026-02-01,313,313,0,1
-cpi_services_less_rent,CUUR0000SASL2RS,Consumer Price Index for All Urban Consumers: Services Less Rent of Shelter in U.S. City Average,M,Index Dec 1982=100,Not Seasonally Adjusted,2026-03-11 08:05:46-05,1982-12-01,2026-02-01,313,313,0,1
-cpi_shelter,CUSR0000SEHA,Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-03-11 08:05:43-05,1981-01-01,2026-02-01,313,313,0,1
-durable_orders,DGORDER,Manufacturers' New Orders: Durable Goods,M,Millions of Dollars,Seasonally Adjusted,2026-03-18 09:06:05-05,1992-02-01,2026-01-01,313,313,0,0
-eci_total,ECIALLCIV,Employment Cost Index: Total compensation: All Civilian,Q,Index Dec 2005=100,Seasonally Adjusted,2026-02-10 07:53:34-06,2001-01-01,2025-10-01,100,298,0,0
-eci_wages,ECIWAG,Employment Cost Index: Wages and Salaries: Private Industry Workers,Q,Index Dec 2005=100,Seasonally Adjusted,2026-02-10 07:53:31-06,2001-01-01,2025-10-01,100,298,12,0
-epop_ratio,EMRATIO,Employment-Population Ratio,M,Percent,Seasonally Adjusted,2026-03-06 08:15:23-06,1948-01-01,2026-02-01,313,313,0,1
-fed_funds,FEDFUNDS,Federal Funds Effective Rate,M,Percent,Not Seasonally Adjusted,2026-03-02 15:17:32-06,1954-07-01,2026-02-01,314,314,0,0
-forward_5y5y,T5YIFR,"5-Year, 5-Year Forward Inflation Expectation Rate",D,Percent,Not Seasonally Adjusted,2026-03-31 16:03:31-05,2003-01-02,2026-03-31,5814,279,0,0
-hires_level,JTSHIL,Hires: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:10:59-05,2000-12-01,2026-02-01,303,303,0,0
-hires_rate,JTSHIR,Hires: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:10:56-05,2000-12-01,2026-02-01,303,303,0,0
-housing_starts,HOUST,New Privately-Owned Housing Units Started: Total Units,M,Thousands of Units,Seasonally Adjusted Annual Rate,2026-03-12 07:32:44-05,1959-01-01,2026-01-01,313,313,0,0
-hy_oas,BAMLH0A0HYM2,ICE BofA US High Yield Index Option-Adjusted Spread,D,Percent,Not Seasonally Adjusted,2026-03-31 08:47:08-05,1996-12-31,2026-03-30,6852,315,0,0
-ip_manufacturing,IPMAN,Industrial Production: Manufacturing (NAICS),M,Index 2017=100,Seasonally Adjusted,2026-03-16 08:20:22-05,1972-01-01,2026-02-01,314,314,0,0
-ip_total,INDPRO,Industrial Production: Total Index,M,Index 2017=100,Seasonally Adjusted,2026-03-16 08:21:17-05,1919-01-01,2026-02-01,314,314,0,0
-job_openings_level,JTSJOL,Job Openings: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:11-05,2000-12-01,2026-02-01,303,303,0,0
-kcfed_lmci_activity,FRBKCLMCILA,"KC Fed Labor Market Conditions Index, Level of Activity Indicator",M,Index,Seasonally Adjusted,2026-02-13 12:02:07-06,1992-01-01,2026-01-01,313,313,0,0
-kcfed_lmci_momentum,FRBKCLMCIM,"KC Fed Labor Market Conditions Index, Momentum Indicator",M,Index,Seasonally Adjusted,2026-02-13 12:02:19-06,1992-01-01,2026-01-01,313,313,0,0
-layoffs_discharges_level,JTSLDL,Layoffs and Discharges: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:13-05,2000-12-01,2026-02-01,303,303,0,0
-layoffs_discharges_rate,JTSLDR,Layoffs and Discharges: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:11:08-05,2000-12-01,2026-02-01,303,303,0,0
-lfpr,CIVPART,Labor Force Participation Rate,M,Percent,Seasonally Adjusted,2026-03-06 08:15:18-06,1948-01-01,2026-02-01,313,313,0,1
-m2,M2SL,M2,M,Billions of Dollars,Seasonally Adjusted,2026-03-24 12:01:49-05,1959-01-01,2026-02-01,314,314,0,0
-michigan_1y,MICH,University of Michigan: Inflation Expectation,M,Percent,Not Seasonally Adjusted,2026-03-27 10:02:40-05,1978-01-01,2026-02-01,314,314,0,0
-new_home_sales,HSN1F,New One Family Houses Sold: United States,M,Thousands,Seasonally Adjusted Annual Rate,2026-03-19 09:04:01-05,1963-01-01,2026-01-01,313,313,0,0
-output_per_hour,OPHNFB,Nonfarm Business Sector: Labor Productivity (Output per Hour) for All Workers,Q,Index 2017=100,Seasonally Adjusted,2026-03-24 07:38:54-05,1947-01-01,2025-10-01,104,310,0,0
-payrolls_construction,USCONS,"All Employees, Construction",M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:12:30-06,1939-01-01,2026-02-01,314,314,0,0
-payrolls_manufacturing,MANEMP,"All Employees, Manufacturing",M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:13:09-06,1939-01-01,2026-02-01,314,314,0,0
-payrolls_nonfarm,PAYEMS,"All Employees, Total Nonfarm",M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:13:02-06,1939-01-01,2026-02-01,314,314,0,0
-payrolls_private,USPRIV,"All Employees, Total Private",M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:12:31-06,1939-01-01,2026-02-01,314,314,0,0
-payrolls_services,SRVPRD,"All Employees, Service-Providing",M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:12:58-06,1939-01-01,2026-02-01,314,314,0,0
-pce_core,PCEPILFE,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),M,Index 2017=100,Seasonally Adjusted,2026-03-13 07:43:38-05,1959-01-01,2026-01-01,313,313,0,0
-pce_price,PCEPI,Personal Consumption Expenditures: Chain-type Price Index,M,Index 2017=100,Seasonally Adjusted,2026-03-13 07:43:48-05,1959-01-01,2026-01-01,313,313,0,0
-pce_services,DSERRG3M086SBEA,Personal consumption expenditures: Services (chain-type price index),M,Index 2017=100,Seasonally Adjusted,2026-03-13 07:43:52-05,1959-01-01,2026-01-01,313,313,0,0
-pce_trimmed_12m,PCETRIM12M159SFRBDAL,Trimmed Mean PCE Inflation Rate,M,Percent Change from Year Ago,Seasonally Adjusted,2026-03-13 11:01:35-05,1978-01-01,2026-01-01,313,313,0,0
-pce_trimmed_1m,PCETRIM1M158SFRBDAL,Trimmed Mean PCE Inflation Rate,M,Percent Change at Annual Rate,Seasonally Adjusted,2026-03-13 11:01:35-05,1977-02-01,2026-01-01,313,313,0,0
-prime_age_lfpr,LNS11300060,Labor Force Participation Rate - 25-54 Yrs.,M,Percent,Seasonally Adjusted,2026-03-06 08:15:13-06,1948-01-01,2026-02-01,313,313,0,1
-prime_age_urate,LNS13025703,"Of Total Unemployed, Percent Unemployed 27 Weeks & over",M,Percent,Seasonally Adjusted,2026-03-06 08:14:58-06,1948-01-01,2026-02-01,313,313,0,1
-quits_level,JTSQUL,Quits: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:34-05,2000-12-01,2026-02-01,303,303,0,0
-quits_rate,JTSQUR,Quits: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:11:34-05,2000-12-01,2026-02-01,303,303,0,0
-real_dpi,DSPIC96,Real Disposable Personal Income,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-03-13 07:43:54-05,1959-01-01,2026-01-01,313,313,0,0
-real_pi,RPI,Real Personal Income,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-03-13 07:43:33-05,1959-01-01,2026-01-01,313,313,0,0
-real_pi_less_transfers,W875RX1,Real personal income excluding current transfer receipts,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-03-13 07:43:29-05,1959-01-01,2026-01-01,313,313,0,0
-real_retail,RRSFS,Advance Real Retail and Food Services Sales,M,Millions of 1982-84 CPI Adjusted Dollars,Seasonally Adjusted,2026-03-06 07:41:27-06,1992-01-01,2026-01-01,312,312,0,1
-recession,USREC,NBER based Recession Indicators for the United States from the Period following the Peak through the Trough,M,+1 or 0,Not Seasonally Adjusted,2026-03-02 18:02:46-06,1854-12-01,2026-02-01,314,314,0,0
-retail_advance,RSAFS,Advance Retail Sales: Retail Trade and Food Services,M,Millions of Dollars,Seasonally Adjusted,2026-03-06 07:35:39-06,1992-01-01,2026-01-01,313,313,0,0
-saving_rate,PMSAVE,Personal Saving,M,Billions of Dollars,Seasonally Adjusted Annual Rate,2026-03-13 07:43:35-05,1959-01-01,2026-01-01,313,313,0,0
-total_separations_level,JTSTSL,Total Separations: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:21-05,2000-12-01,2026-02-01,303,303,0,0
-total_separations_rate,JTSTSR,Total Separations: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:10:55-05,2000-12-01,2026-02-01,303,303,0,0
-treasury_10y,GS10,"Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis",M,Percent,Not Seasonally Adjusted,2026-03-02 15:16:43-06,1953-04-01,2026-02-01,314,314,0,0
-treasury_1m,DGS1MO,"Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-03-31 15:16:55-05,2001-07-31,2026-03-30,6166,297,0,0
-treasury_2y,DGS2,"Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-03-31 15:16:51-05,1976-06-01,2026-03-30,6562,315,0,0
-treasury_3m,DGS3MO,"Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-03-31 15:16:44-05,1981-09-01,2026-03-30,6562,315,0,0
-u6_rate,U6RATE,"Total Unemployed, Plus All Persons Marginally Attached to the Labor Force, Plus Total Employed Part Time for Economic Reasons, as a Percent of the Civilian Labor Force Plus All Persons Marginally Attached to the Labor Force (U-6)",M,Percent,Seasonally Adjusted,2026-03-06 08:13:00-06,1994-01-01,2026-02-01,313,313,0,1
-unemployment_level,UNEMPLOY,Unemployment Level,M,Thousands of Persons,Seasonally Adjusted,2026-03-06 08:12:53-06,1948-01-01,2026-02-01,313,313,0,1
-unemployment_rate,UNRATE,Unemployment Rate,M,Percent,Seasonally Adjusted,2026-03-06 08:12:35-06,1948-01-01,2026-02-01,313,313,0,1
-unit_labor_costs,ULCNFB,Nonfarm Business Sector: Unit Labor Costs for All Workers,Q,Index 2017=100,Seasonally Adjusted,2026-03-24 07:37:59-05,1947-01-01,2025-10-01,104,310,0,0
+col,series_id,title,freq,units,seasonal_adj,last_updated,obs_start,obs_end,raw_count,monthly_count
+aaa_yield,AAA,Moody's Seasoned Aaa Corporate Bond Yield,M,Percent,Not Seasonally Adjusted,2026-04-01 10:17:33-05,1919-01-01,2026-03-01,315,315
+ahe_manufacturing,CES3000000003,"Average Hourly Earnings of All Employees, Manufacturing",M,Dollars per Hour,Seasonally Adjusted,2026-04-03 08:23:38-05,2006-03-01,2026-03-01,241,241
+ahe_private,CES0500000003,"Average Hourly Earnings of All Employees, Total Private",M,Dollars per Hour,Seasonally Adjusted,2026-04-03 08:23:31-05,2006-03-01,2026-03-01,241,241
+avg_weeks_unemployed,UEMPMEAN,Average Weeks Unemployed,M,Weeks,Seasonally Adjusted,2026-04-03 08:19:05-05,1948-01-01,2026-03-01,314,314
+awe_manufacturing,CES3000000008,"Average Hourly Earnings of Production and Nonsupervisory Employees, Manufacturing",M,Dollars per Hour,Seasonally Adjusted,2026-04-03 08:23:39-05,1939-01-01,2026-03-01,315,315
+awe_private,CES0500000011,"Average Weekly Earnings of All Employees, Total Private",M,Dollars per Week,Seasonally Adjusted,2026-04-03 08:23:08-05,2006-03-01,2026-03-01,241,241
+awh_private,AWHAETP,"Average Weekly Hours of All Employees, Total Private",M,Hours,Seasonally Adjusted,2026-04-03 08:23:41-05,2006-03-01,2026-03-01,241,241
+baa_yield,BAA,Moody's Seasoned Baa Corporate Bond Yield,M,Percent,Not Seasonally Adjusted,2026-04-01 10:17:31-05,1919-01-01,2026-03-01,315,315
+bank_credit,TOTBKCR,"Bank Credit, All Commercial Banks",W,Billions of U.S. Dollars,Seasonally Adjusted,2026-04-10 16:51:53-05,1973-01-03,2026-04-01,1370,316
+bbb_oas,BAMLC0A4CBBB,ICE BofA BBB US Corporate Index Option-Adjusted Spread,D,Percent,Not Seasonally Adjusted,2026-04-10 09:30:54-05,1996-12-31,2026-04-09,6860,316
+breakeven_10y,T10YIE,10-Year Breakeven Inflation Rate,D,Percent,Not Seasonally Adjusted,2026-04-10 18:05:10-05,2003-01-02,2026-04-10,5822,280
+breakeven_5y,T5YIE,5-Year Breakeven Inflation Rate,D,Percent,Not Seasonally Adjusted,2026-04-10 18:05:08-05,2003-01-02,2026-04-10,5822,280
+building_permits,PERMIT,New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units,M,Thousands of Units,Seasonally Adjusted Annual Rate,2026-03-27 15:00:43-05,1960-01-01,2026-01-01,313,313
+capacity_util,CUMFNS,Capacity Utilization: Manufacturing (SIC),M,Percent,Seasonally Adjusted,2026-03-16 08:19:53-05,1948-01-01,2026-02-01,314,314
+capex_orders,NEWORDER,Manufacturers' New Orders: Nondefense Capital Goods Excluding Aircraft,M,Millions of Dollars,Seasonally Adjusted,2026-04-10 09:06:59-05,1992-02-01,2026-02-01,314,314
+ci_loans,BUSLOANS,"Commercial and Industrial Loans, All Commercial Banks",M,Billions of U.S. Dollars,Seasonally Adjusted,2026-04-10 18:30:18-05,1947-01-01,2026-03-01,315,315
+consumer_sentiment,UMCSENT,University of Michigan: Consumer Sentiment,M,Index 1966:Q1=100,Not Seasonally Adjusted,2026-03-27 10:02:30-05,1952-11-01,2026-02-01,314,314
+cpi_all,CPIAUCSL,Consumer Price Index for All Urban Consumers: All Items in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:08:20-05,1947-01-01,2026-03-01,314,314
+cpi_core,CPILFESL,Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:07:42-05,1957-01-01,2026-03-01,314,314
+cpi_food,CPIUFDSL,Consumer Price Index for All Urban Consumers: Food in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:08:20-05,1947-01-01,2026-03-01,314,314
+cpi_less_shelter,CUSR0000SA0L2,Consumer Price Index for All Urban Consumers: All Items Less Shelter in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:07:55-05,1947-01-01,2026-03-01,314,314
+cpi_medical,CPIMEDSL,Consumer Price Index for All Urban Consumers: Medical Care in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:07:56-05,1947-01-01,2026-03-01,314,314
+cpi_services_less_energy,CUSR0000SASLE,Consumer Price Index for All Urban Consumers: Services Less Energy Services in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:08:17-05,1967-01-01,2026-03-01,314,314
+cpi_services_less_rent,CUUR0000SASL2RS,Consumer Price Index for All Urban Consumers: Services Less Rent of Shelter in U.S. City Average,M,Index Dec 1982=100,Not Seasonally Adjusted,2026-04-10 08:08:11-05,1982-12-01,2026-03-01,314,314
+cpi_shelter,CUSR0000SEHA,Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average,M,Index 1982-1984=100,Seasonally Adjusted,2026-04-10 08:07:52-05,1981-01-01,2026-03-01,314,314
+durable_orders,DGORDER,Manufacturers' New Orders: Durable Goods,M,Millions of Dollars,Seasonally Adjusted,2026-04-10 09:07:09-05,1992-02-01,2026-02-01,314,314
+eci_total,ECIALLCIV,Employment Cost Index: Total compensation: All Civilian,Q,Index Dec 2005=100,Seasonally Adjusted,2026-02-10 07:53:34-06,2001-01-01,2025-10-01,100,100
+eci_wages,ECIWAG,Employment Cost Index: Wages and Salaries: Private Industry Workers,Q,Index Dec 2005=100,Seasonally Adjusted,2026-02-10 07:53:31-06,2001-01-01,2025-10-01,100,100
+epop_ratio,EMRATIO,Employment-Population Ratio,M,Percent,Seasonally Adjusted,2026-04-03 08:21:59-05,1948-01-01,2026-03-01,314,314
+fed_funds,FEDFUNDS,Federal Funds Effective Rate,M,Percent,Not Seasonally Adjusted,2026-04-01 15:17:15-05,1954-07-01,2026-03-01,315,315
+forward_5y5y,T5YIFR,"5-Year, 5-Year Forward Inflation Expectation Rate",D,Percent,Not Seasonally Adjusted,2026-04-10 17:31:52-05,2003-01-02,2026-04-10,5822,280
+hires_level,JTSHIL,Hires: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:10:59-05,2000-12-01,2026-02-01,303,303
+hires_rate,JTSHIR,Hires: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:10:56-05,2000-12-01,2026-02-01,303,303
+housing_starts,HOUST,New Privately-Owned Housing Units Started: Total Units,M,Thousands of Units,Seasonally Adjusted Annual Rate,2026-03-12 07:32:44-05,1959-01-01,2026-01-01,313,313
+hy_oas,BAMLH0A0HYM2,ICE BofA US High Yield Index Option-Adjusted Spread,D,Percent,Not Seasonally Adjusted,2026-04-10 09:29:54-05,1996-12-31,2026-04-09,6860,316
+ip_manufacturing,IPMAN,Industrial Production: Manufacturing (NAICS),M,Index 2017=100,Seasonally Adjusted,2026-03-16 08:20:22-05,1972-01-01,2026-02-01,314,314
+ip_total,INDPRO,Industrial Production: Total Index,M,Index 2017=100,Seasonally Adjusted,2026-03-16 08:21:17-05,1919-01-01,2026-02-01,314,314
+job_openings_level,JTSJOL,Job Openings: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:11-05,2000-12-01,2026-02-01,303,303
+kcfed_lmci_activity,FRBKCLMCILA,"KC Fed Labor Market Conditions Index, Level of Activity Indicator",M,Index,Seasonally Adjusted,2026-02-13 12:02:07-06,1992-01-01,2026-01-01,313,313
+kcfed_lmci_momentum,FRBKCLMCIM,"KC Fed Labor Market Conditions Index, Momentum Indicator",M,Index,Seasonally Adjusted,2026-02-13 12:02:19-06,1992-01-01,2026-01-01,313,313
+layoffs_discharges_level,JTSLDL,Layoffs and Discharges: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:13-05,2000-12-01,2026-02-01,303,303
+layoffs_discharges_rate,JTSLDR,Layoffs and Discharges: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:11:08-05,2000-12-01,2026-02-01,303,303
+lfpr,CIVPART,Labor Force Participation Rate,M,Percent,Seasonally Adjusted,2026-04-03 08:21:47-05,1948-01-01,2026-03-01,314,314
+m2,M2SL,M2,M,Billions of Dollars,Seasonally Adjusted,2026-03-24 12:01:49-05,1959-01-01,2026-02-01,314,314
+michigan_1y,MICH,University of Michigan: Inflation Expectation,M,Percent,Not Seasonally Adjusted,2026-03-27 10:02:40-05,1978-01-01,2026-02-01,314,314
+new_home_sales,HSN1F,New One Family Houses Sold: United States,M,Thousands,Seasonally Adjusted Annual Rate,2026-03-19 09:04:01-05,1963-01-01,2026-01-01,313,313
+output_per_hour,OPHNFB,Nonfarm Business Sector: Labor Productivity (Output per Hour) for All Workers,Q,Index 2017=100,Seasonally Adjusted,2026-03-24 07:38:54-05,1947-01-01,2025-10-01,104,104
+payrolls_construction,USCONS,"All Employees, Construction",M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:18:50-05,1939-01-01,2026-03-01,315,315
+payrolls_manufacturing,MANEMP,"All Employees, Manufacturing",M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:19:32-05,1939-01-01,2026-03-01,315,315
+payrolls_nonfarm,PAYEMS,"All Employees, Total Nonfarm",M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:19:33-05,1939-01-01,2026-03-01,315,315
+payrolls_private,USPRIV,"All Employees, Total Private",M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:19:03-05,1939-01-01,2026-03-01,315,315
+payrolls_services,SRVPRD,"All Employees, Service-Providing",M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:19:32-05,1939-01-01,2026-03-01,315,315
+pce_core,PCEPILFE,Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index),M,Index 2017=100,Seasonally Adjusted,2026-04-09 07:44:02-05,1959-01-01,2026-02-01,314,314
+pce_price,PCEPI,Personal Consumption Expenditures: Chain-type Price Index,M,Index 2017=100,Seasonally Adjusted,2026-04-09 07:44:16-05,1959-01-01,2026-02-01,314,314
+pce_services,DSERRG3M086SBEA,Personal consumption expenditures: Services (chain-type price index),M,Index 2017=100,Seasonally Adjusted,2026-04-09 07:44:08-05,1959-01-01,2026-02-01,314,314
+pce_trimmed_12m,PCETRIM12M159SFRBDAL,Trimmed Mean PCE Inflation Rate,M,Percent Change from Year Ago,Seasonally Adjusted,2026-04-09 11:02:43-05,1978-01-01,2026-02-01,314,314
+pce_trimmed_1m,PCETRIM1M158SFRBDAL,Trimmed Mean PCE Inflation Rate,M,Percent Change at Annual Rate,Seasonally Adjusted,2026-04-09 11:02:51-05,1977-02-01,2026-02-01,314,314
+prime_age_lfpr,LNS11300060,Labor Force Participation Rate - 25-54 Yrs.,M,Percent,Seasonally Adjusted,2026-04-03 08:21:46-05,1948-01-01,2026-03-01,314,314
+prime_age_urate,LNS13025703,"Of Total Unemployed, Percent Unemployed 27 Weeks & over",M,Percent,Seasonally Adjusted,2026-04-03 08:21:17-05,1948-01-01,2026-03-01,314,314
+quits_level,JTSQUL,Quits: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:34-05,2000-12-01,2026-02-01,303,303
+quits_rate,JTSQUR,Quits: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:11:34-05,2000-12-01,2026-02-01,303,303
+real_dpi,DSPIC96,Real Disposable Personal Income,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-04-09 07:44:10-05,1959-01-01,2026-02-01,314,314
+real_pi,RPI,Real Personal Income,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-04-09 07:44:07-05,1959-01-01,2026-02-01,314,314
+real_pi_less_transfers,W875RX1,Real personal income excluding current transfer receipts,M,Billions of Chained 2017 Dollars,Seasonally Adjusted Annual Rate,2026-04-09 07:43:52-05,1959-01-01,2026-02-01,314,314
+real_retail,RRSFS,Advance Real Retail and Food Services Sales,M,Millions of 1982-84 CPI Adjusted Dollars,Seasonally Adjusted,2026-04-01 07:57:31-05,1992-01-01,2026-02-01,313,313
+recession,USREC,NBER based Recession Indicators for the United States from the Period following the Peak through the Trough,M,+1 or 0,Not Seasonally Adjusted,2026-04-01 18:02:00-05,1854-12-01,2026-03-01,315,315
+retail_advance,RSAFS,Advance Retail Sales: Retail Trade and Food Services,M,Millions of Dollars,Seasonally Adjusted,2026-04-01 07:54:47-05,1992-01-01,2026-02-01,314,314
+saving_rate,PMSAVE,Personal Saving,M,Billions of Dollars,Seasonally Adjusted Annual Rate,2026-04-09 07:44:10-05,1959-01-01,2026-02-01,314,314
+total_separations_level,JTSTSL,Total Separations: Total Nonfarm,M,Level in Thousands,Seasonally Adjusted,2026-03-31 09:11:21-05,2000-12-01,2026-02-01,303,303
+total_separations_rate,JTSTSR,Total Separations: Total Nonfarm,M,Rate,Seasonally Adjusted,2026-03-31 09:10:55-05,2000-12-01,2026-02-01,303,303
+treasury_10y,GS10,"Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis",M,Percent,Not Seasonally Adjusted,2026-04-01 15:16:54-05,1953-04-01,2026-03-01,315,315
+treasury_1m,DGS1MO,"Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-04-10 16:56:59-05,2001-07-31,2026-04-09,6174,298
+treasury_2y,DGS2,"Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-04-10 18:05:20-05,1976-06-01,2026-04-09,6570,316
+treasury_3m,DGS3MO,"Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity, Quoted on an Investment Basis",D,Percent,Not Seasonally Adjusted,2026-04-10 17:01:22-05,1981-09-01,2026-04-09,6570,316
+u6_rate,U6RATE,"Total Unemployed, Plus All Persons Marginally Attached to the Labor Force, Plus Total Employed Part Time for Economic Reasons, as a Percent of the Civilian Labor Force Plus All Persons Marginally Attached to the Labor Force (U-6)",M,Percent,Seasonally Adjusted,2026-04-03 08:19:31-05,1994-01-01,2026-03-01,314,314
+unemployment_level,UNEMPLOY,Unemployment Level,M,Thousands of Persons,Seasonally Adjusted,2026-04-03 08:18:53-05,1948-01-01,2026-03-01,314,314
+unemployment_rate,UNRATE,Unemployment Rate,M,Percent,Seasonally Adjusted,2026-04-03 08:19:15-05,1948-01-01,2026-03-01,314,314
+unit_labor_costs,ULCNFB,Nonfarm Business Sector: Unit Labor Costs for All Workers,Q,Index 2017=100,Seasonally Adjusted,2026-03-24 07:37:59-05,1947-01-01,2025-10-01,104,104

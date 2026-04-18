@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "ml_labor_tightness_regime_shift"
+name = "regime_shift"
 version = "0.0.1"
 description = "Detect regime shifts in the predictive relationship between labor market tightness and future wage growth, with a focus on the post-2020 structural break."
 authors = [
@@ -13,7 +13,6 @@ authors = [
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
-    
 ]
 dependencies = [
     "loguru",
@@ -23,19 +22,20 @@ dependencies = [
     "ruff",
     "tqdm",
     "typer",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "openpyxl",
+    "pyarrow",
+    "scipy",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "arch",
+    "pmdarima",
+    "jupyter",
+    "jupyterlab",
+    "fredapi",
 ]
 requires-python = "~=3.11.0"
-
-
-[tool.ruff]
-line-length = 99
-src = ["ml_labor_tightness_regime_shift"]
-include = ["pyproject.toml", "ml_labor_tightness_regime_shift/**/*.py"]
-
-[tool.ruff.lint]
-extend-select = ["I"]  # Add import sorting
-
-[tool.ruff.lint.isort]
-known-first-party = ["ml_labor_tightness_regime_shift"]
-force-sort-within-sections = true
-

@@ -1,0 +1,9 @@
+target_name,model_list
+price_target_0,"ElasticNet, ElasticTuned, OLS, Persistence, Ridge, SARIMAX"
+price_target_12,"ElasticNet, ElasticTuned, Persistence, Ridge, SARIMAX"
+price_target_3,"ElasticNet, ElasticTuned, OLS, Persistence, Ridge, SARIMAX"
+price_target_6,"ElasticNet, ElasticTuned, Persistence, Ridge, SARIMAX"
+wage_target_0,"ElasticNet, ElasticTuned, OLS, Persistence, Ridge"
+wage_target_12,"ElasticNet, ElasticTuned, Persistence, Ridge"
+wage_target_3,"ElasticNet, ElasticTuned, OLS, Persistence, Ridge"
+wage_target_6,"ElasticNet, ElasticTuned, Persistence, Ridge"

@@ -1,0 +1,10 @@
+target_name,target_group,start_date,end_date,row_count,pre_rows,shock_rows,post_rows
+wage_target_3,wage,2006-03-01,2025-12-01,238,166,17,55
+wage_target_6,wage,2006-03-01,2025-09-01,235,166,17,52
+wage_target_12,wage,2006-03-01,2025-03-01,229,166,17,46
+cpi_target_3,price,2000-01-01,2025-12-01,310,240,17,53
+cpi_target_6,price,2000-01-01,2025-09-01,308,240,17,51
+cpi_target_12,price,2000-01-01,2025-03-01,302,240,17,45
+pce_target_3,price,2000-01-01,2025-11-01,311,240,17,54
+pce_target_6,price,2000-01-01,2025-08-01,308,240,17,51
+pce_target_12,price,2000-01-01,2025-02-01,302,240,17,45

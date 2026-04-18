@@ -1,0 +1,9 @@
+metric,value
+total_observations,316
+total_engineered_features,149
+date_range_start,2000-01-01
+date_range_end,2026-04-01
+pre_2020_observations,240
+pandemic_shock_observations,17
+post_2021_observations,59
+complete_cases_pct,11.08

@@ -1,0 +1,5 @@
+group,count,feature_list
+tightness,4,"jolts_ratio, log_jolts_ratio, unemployment_rate, quits_rate"
+target,2,"ahe_private_12m_pct, cpi_all_12m_pct"
+control,3,"fed_funds, consumer_sentiment, hy_oas"
+state,3,"post_regime, high_inflation, tight_labor"

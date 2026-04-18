@@ -1,51 +1,96 @@
-
-import os
 from pathlib import Path
-from datetime import datetime
+from typing import Dict, List
 
-# Paths and Roots
-PROJECT_ROOT = Path(__file__).parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
-RAW_DATA_DIR = DATA_DIR / "raw"
-EXTERNAL_DATA_DIR = DATA_DIR / "external"
-INTERIM_DATA_DIR = DATA_DIR / "interim"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
-MODELS_DIR = PROJECT_ROOT / "models"
-REPORTS_DIR = PROJECT_ROOT / "reports"
-FIGURES_DIR = REPORTS_DIR / "figures"
-NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
 
-for directory in [INTERIM_DATA_DIR, PROCESSED_DATA_DIR, MODELS_DIR, FIGURES_DIR]:
-    directory.mkdir(parents=True, exist_ok=True)
+def find_project_root(start_path: Path) -> Path:
+    current = start_path.resolve()
+    if current.is_file():
+        current = current.parent
 
-MERGED_DATA_PATH = PROCESSED_DATA_DIR / "07_merged_data.csv"
-DATA_DICTIONARY_PATH = PROCESSED_DATA_DIR / "07_data_dictionary.csv"
-MERGE_SUMMARY_PATH = PROCESSED_DATA_DIR / "07_merge_summary.csv"
+    for path in [current, *current.parents]:
+        if (
+            (path / "pyproject.toml").exists()
+            and (path / "data").exists()
+            and (path / "notebooks").exists()
+        ):
+            return path
 
-EDA_SUMMARY_PATH = REPORTS_DIR / "03_eda_summary.csv"
-STRUCTURAL_BREAK_RESULTS_PATH = REPORTS_DIR / "03_structural_breaks.csv"
-REGIME_STATISTICS_PATH = REPORTS_DIR / "03_regime_statistics.csv"
-UNIT_ROOT_RESULTS_PATH = REPORTS_DIR / "03_unit_root_tests.csv"
-PHILLIPS_CURVE_RESULTS_PATH = REPORTS_DIR / "03_phillips_curve_results.csv"
-ROLLING_CORRELATION_SUMMARY_PATH = REPORTS_DIR / "03_rolling_correlation_summary.csv"
+    raise RuntimeError(
+        f"Could not find project root from {start_path}. "
+        "Expected a folder containing pyproject.toml, data/, and notebooks/."
+    )
 
-FEATURE_ENGINEERED_DATA_PATH = PROCESSED_DATA_DIR / "08_feature_engineered_data.csv"
-FEATURE_IMPORTANCE_PATH = REPORTS_DIR / "04_feature_importance_summary.csv"
-MULTICOLLINEARITY_REPORT_PATH = REPORTS_DIR / "04_multicollinearity_check.csv"
-FEATURE_VALIDATION_PATH = REPORTS_DIR / "04_feature_validation.csv"
 
-REGIME_BREAKS = {
-    "pre_2020_start": "2000-01-01",
-    "pre_2020_end": "2019-12-31",
-    "pandemic_shock_start": "2020-01-01",
-    "pandemic_shock_end": "2020-12-31",
-    "post_pandemic_start": "2021-01-01",
-    "post_pandemic_end": "2026-12-31",
+PROJECT_ROOT = find_project_root(Path(__file__))
+SRC_ROOT = Path(__file__).resolve().parent
+
+DATA_ROOT = PROJECT_ROOT / "data"
+RAW_ROOT = DATA_ROOT / "raw"
+EXT_ROOT = DATA_ROOT / "external"
+INT_ROOT = DATA_ROOT / "interim"
+PROC_ROOT = DATA_ROOT / "processed"
+
+MODEL_ROOT = PROJECT_ROOT / "models"
+REPORT_ROOT = PROJECT_ROOT / "reports"
+FIG_ROOT = REPORT_ROOT / "figures"
+NOTE_ROOT = PROJECT_ROOT / "notebooks"
+
+for root in [
+    DATA_ROOT,
+    RAW_ROOT,
+    EXT_ROOT,
+    INT_ROOT,
+    PROC_ROOT,
+    MODEL_ROOT,
+    REPORT_ROOT,
+    FIG_ROOT,
+]:
+    root.mkdir(parents=True, exist_ok=True)
+
+MERGED_PATH = PROC_ROOT / "07_merged_data.csv"
+DICT_PATH = PROC_ROOT / "07_data_dictionary.csv"
+MERGE_PATH = PROC_ROOT / "07_merge_summary.csv"
+
+EDA_PATH = REPORT_ROOT / "03_eda_summary.csv"
+BREAK_PATH = REPORT_ROOT / "03_structural_breaks.csv"
+REGIME_PATH = REPORT_ROOT / "03_regime_statistics.csv"
+UNIT_PATH = REPORT_ROOT / "03_unit_root_tests.csv"
+CURVE_PATH = REPORT_ROOT / "03_phillips_curve_results.csv"
+ROLL_PATH = REPORT_ROOT / "03_rolling_correlation_summary.csv"
+
+FEAT_PATH = PROC_ROOT / "08_feature_engineered_data.csv"
+MODEL_READY_PATH = PROC_ROOT / "09_model_ready_data.csv"
+WAGE_MODEL_READY_PATH = PROC_ROOT / "09_wage_model_ready_data.csv"
+PRICE_MODEL_READY_PATH = PROC_ROOT / "09_price_model_ready_data.csv"
+INTERACTION_MODEL_READY_PATH = PROC_ROOT / "09_model_interaction_data.csv"
+DESIGN_MODEL_READY_PATH = PROC_ROOT / "09_model_design_data.csv"
+
+IMPORT_PATH = REPORT_ROOT / "04_feature_importance_summary.csv"
+COLINEAR_PATH = REPORT_ROOT / "04_colinearity_check.csv"
+VALID_PATH = REPORT_ROOT / "04_feature_validation.csv"
+
+REGIME_DATES: Dict[str, str] = {
+    "pre_start": "2000-01-01",
+    "pre_end": "2019-12-31",
+    "shock_start": "2020-01-01",
+    "shock_end": "2021-05-31",
+    "post_start": "2021-06-01",
+    "post_end": "2026-12-31",
 }
 
-QUANDT_BREAKPOINT = "2021-09-01"
+BREAK_DATE = "2021-09-01"
 
-LABOR_MARKET_VARIABLES = [
+PRE_LABEL = "Pre-2020"
+SHOCK_LABEL = "Pandemic Shock (2020-2021H1)"
+POST_LABEL = "Post-Pandemic (2021-06+)"
+
+REGIME_LABELS = {
+    "pre": PRE_LABEL,
+    "shock": SHOCK_LABEL,
+    "post": POST_LABEL,
+}
+
+LABOR_VARS: List[str] = [
     "job_openings_level",
     "unemployment_rate",
     "unemployment_level",
@@ -60,7 +105,7 @@ LABOR_MARKET_VARIABLES = [
     "epop_ratio",
 ]
 
-WAGE_VARIABLES = [
+WAGE_VARS: List[str] = [
     "ahe_private",
     "awe_private",
     "ahe_manufacturing",
@@ -68,7 +113,7 @@ WAGE_VARIABLES = [
     "eci_wages",
 ]
 
-INFLATION_VARIABLES = [
+PRICE_VARS: List[str] = [
     "cpi_all",
     "cpi_core",
     "cpi_shelter",
@@ -81,14 +126,14 @@ INFLATION_VARIABLES = [
     "exp_5yr_cpi",
 ]
 
-MONETARY_POLICY_VARIABLES = [
+POLICY_VARS: List[str] = [
     "fed_funds",
     "treasury_3m",
     "treasury_2y",
     "treasury_10y",
 ]
 
-FINANCIAL_CONDITIONS_VARIABLES = [
+FIN_VARS: List[str] = [
     "aaa_yield",
     "baa_yield",
     "hy_oas",
@@ -97,7 +142,7 @@ FINANCIAL_CONDITIONS_VARIABLES = [
     "m2",
 ]
 
-ACTIVITY_VARIABLES = [
+ACTIVITY_VARS: List[str] = [
     "payrolls_nonfarm",
     "payrolls_private",
     "ip_total",
@@ -106,38 +151,46 @@ ACTIVITY_VARIABLES = [
     "housing_starts",
 ]
 
-PRIMARY_PREDICTOR_NAME = "jolts_unemployment_ratio"
-FORWARD_WAGE_TARGET = "ahe_12m_forward"
-FORWARD_INFLATION_TARGET = "cpi_12m_forward"
+MAIN_PRED = "jolts_ratio"
 
-LAG_HORIZONS = [1, 3, 6, 12, 24]
-ROLLING_WINDOW_MONTHS = [12, 24]
-CORRELATION_LAG_WINDOWS = [0, 6, 12, 24]
+TARGET_HORIZONS: List[int] = [3, 6, 12]
 
-ADF_SIGNIFICANCE_LEVEL = 0.05
-ADF_MAX_LAG = "AIC"
-ADF_REGRESSION_TYPE = "c"  # constant only
+TARGET_PREFIX_MAP: Dict[str, str] = {
+    "ahe_private_12m_pct": "wage_target",
+    "cpi_all_12m_pct": "cpi_target",
+    "pce_price_12m_pct": "pce_target",
+}
 
-CHOW_BREAK_DATE = "2021-09-01"
+WAGE_TARGET_COLS = [f"wage_target_{h}" for h in TARGET_HORIZONS]
+PRICE_TARGET_COLS = [f"cpi_target_{h}" for h in TARGET_HORIZONS] + [
+    f"pce_target_{h}" for h in TARGET_HORIZONS
+]
+TARGET_COLS = WAGE_TARGET_COLS + PRICE_TARGET_COLS
 
-STANDARDIZE_WITHIN_REGIME = True
-REGIME_1_STANDARDIZATION = "pre_2020"
-REGIME_2_STANDARDIZATION = "post_2021"
+WAGE_TARGET = "wage_target_12"
+PRICE_TARGET = "cpi_target_12"
 
-MULTICOLLINEARITY_THRESHOLD = 0.95
+LAG_LIST: List[int] = [1, 3, 6, 12, 24]
+ROLL_LIST: List[int] = [3, 6, 12, 24]
+CORR_LIST: List[int] = [0, 6, 12, 24]
 
-MAX_MISSING_PCT = 0.50
-MIN_REQUIRED_OBSERVATIONS = 12
+ADF_ALPHA = 0.05
+ADF_LAG = "AIC"
+ADF_REG = "c"
 
-FORWARD_WINDOW_MONTHS = 12
+STD_BY_REGIME = True
+CORR_MAX = 0.95
+MISS_MAX = 0.50
+OBS_MIN = 12
+FWD_WINDOW = 12
 
-FIGSIZE_DEFAULT = (14, 8)
-FIGSIZE_WIDE = (16, 10)
-FIGSIZE_TALL = (12, 10)
-DPI_SAVE = 300
-PLOT_STYLE = "seaborn-v0_8-darkgrid" 
+FIG_SIZE = (14, 8)
+FIG_WIDE = (16, 10)
+FIG_TALL = (12, 10)
+SAVE_DPI = 300
+PLOT_STYLE = "seaborn-v0_8-darkgrid"
 
-ATLANTA_WAGE_TRACKER_COLS = {
+ATL_MAP = {
     "atl_.": "atl_wage_3m_ga",
     "atl_..1": "atl_wage_6m_ga",
     "atl_..2": "atl_wage_12m_ga",
@@ -156,13 +209,8 @@ ATLANTA_WAGE_TRACKER_COLS = {
     "atl_..15": "atl_wage_diffusion_levels",
 }
 
-# Philadelphia Fed vintage data years
-PHILADELPHIA_VINTAGE_YEARS = ["15", "16", "17", "18", "19"]
+PHIL_YEARS = ["15", "16", "17", "18", "19"]
 
-DISPLAY_DECIMALS = 4
-STATISTICAL_SIGNIFICANCE_LEVEL = 0.05
-FORECAST_EVALUATION_METRIC = "RMSE"
-
-print(f"Project Root: {PROJECT_ROOT}")
-print(f"Data Directory: {DATA_DIR}")
-print(f"Processed Data Save Path: {PROCESSED_DATA_DIR}")
+SHOW_DEC = 4
+STAT_ALPHA = 0.05
+SCORE_NAME = "RMSE"

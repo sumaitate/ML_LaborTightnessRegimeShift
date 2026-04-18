@@ -1,0 +1,6 @@
+,cpi_all_12m_pct,cpi_all_12m_pct,cpi_all_12m_pct,cpi_all_12m_pct,cpi_all_12m_pct,pce_price_12m_pct,pce_price_12m_pct,pce_price_12m_pct,pce_price_12m_pct,pce_price_12m_pct
+,count,mean,std,min,max,count,mean,std,min,max
+regime,,,,,,,,,,
+Pandemic Shock (2020-2021H1),17,1.732,1.222,0.198,4.801,17,1.585,0.982,0.461,3.992
+Post-Pandemic (2021-06+),57,4.444,2.056,2.299,8.599,57,3.917,1.564,2.236,6.993
+Pre-2020,228,2.08,1.215,-1.978,5.352,228,1.779,0.971,-1.477,4.052

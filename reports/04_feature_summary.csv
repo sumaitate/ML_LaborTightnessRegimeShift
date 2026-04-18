@@ -1,0 +1,10 @@
+metric,value
+raw_rows,316
+raw_cols,384
+default_feature_cols,46
+interaction_cols,12
+target_cols,9
+final_rows,316
+final_cols,97
+wage_rows,948
+price_rows,1896

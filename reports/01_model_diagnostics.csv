@@ -1,0 +1,3 @@
+target,r_squared,adj_r_squared,lb_stat,lb_p_value,bp_stat,bp_p_value,n_obs
+ahe_private_12m_forward,0.7274,0.7161,217.2785,0.0,26.8204,0.0015,229
+cpi_all_12m_forward,0.5608,0.5468,383.7873,0.0,59.726,0.0,291

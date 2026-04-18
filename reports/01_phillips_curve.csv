@@ -1,0 +1,3 @@
+regime,intercept,unemployment_coef,unemployment_se,unemployment_t,unemployment_p,r_squared,n_obs
+Pre-2020,3.1566,-0.1799,0.0433,-4.1599,0.0,0.0711,228
+Post-Pandemic (2021+),9.625,-1.289,0.5539,-2.3272,0.0237,0.0896,57

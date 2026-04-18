@@ -1,0 +1,10 @@
+y_col,x_col,start_date,end_date,obs
+wage_forward_3,log_jolts_ratio,2006-03-01,2025-12-01,237
+wage_forward_6,log_jolts_ratio,2006-03-01,2025-09-01,235
+wage_forward_12,log_jolts_ratio,2006-03-01,2025-03-01,229
+cpi_forward_3,log_jolts_ratio,2001-02-01,2025-12-01,296
+cpi_forward_6,log_jolts_ratio,2001-02-01,2025-09-01,295
+cpi_forward_12,log_jolts_ratio,2001-02-01,2025-03-01,289
+pce_forward_3,log_jolts_ratio,2001-02-01,2025-11-01,297
+pce_forward_6,log_jolts_ratio,2001-02-01,2025-08-01,295
+pce_forward_12,log_jolts_ratio,2001-02-01,2025-02-01,289

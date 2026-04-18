@@ -1,0 +1,11 @@
+metric,value
+raw_rows,316
+raw_cols,278
+candidate_cols,124
+keep_cols,91
+scale_cols,6
+target_cols,8
+model_rows,304
+model_cols,110
+start_date,2000-12-01
+end_date,2026-03-01

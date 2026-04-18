@@ -1,0 +1,6 @@
+,ahe_private_12m_pct,ahe_private_12m_pct,ahe_private_12m_pct,ahe_private_12m_pct,ahe_private_12m_pct,eci_total_12m_pct,eci_total_12m_pct,eci_total_12m_pct,eci_total_12m_pct,eci_total_12m_pct
+,count,mean,std,min,max,count,mean,std,min,max
+regime,,,,,,,,,,
+Pandemic Shock (2020-2021H1),17,4.381,1.612,0.597,7.785,17,2.64,0.139,2.434,2.825
+Post-Pandemic (2021-06+),58,4.354,0.593,3.457,5.727,53,4.094,0.544,2.803,4.988
+Pre-2020,154,2.482,0.542,1.626,3.665,216,2.61,0.69,1.359,3.811

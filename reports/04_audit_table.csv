@@ -1,0 +1,11 @@
+audit_name,audit_value,audit_pass
+no_horizon_zero_targets,0,True
+no_scaled_cols_in_export,0,True
+no_duplicate_cols_in_export,0,True
+no_leak_name_cols_in_default_features,0,True
+no_post_regime_interaction_in_default_features,0,True
+regime_cols_present,0,True
+rolling_features_are_trailing,0,True
+wage_file_saved,1,True
+price_file_saved,1,True
+model_file_saved,1,True

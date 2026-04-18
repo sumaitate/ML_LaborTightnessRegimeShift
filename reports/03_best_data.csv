@@ -1,0 +1,9 @@
+target_name,model_name,split_name,rmse_value,mae_value,row_count
+price_target_0,ElasticTuned,holdout,0.21975094713981325,0.17870473292210787,24
+price_target_12,ElasticTuned,holdout,0.32014573958371073,0.262578295546236,24
+price_target_3,SARIMAX,holdout,0.33457821960212847,0.2801135534693157,24
+price_target_6,SARIMAX,holdout,0.3073939837013592,0.25863935427196366,24
+wage_target_0,ElasticTuned,holdout,0.152760453569522,0.11456389639779023,24
+wage_target_12,Persistence,holdout,0.2703093726505652,0.22354248327027446,24
+wage_target_3,ElasticTuned,holdout,0.21024664549186645,0.169509714947267,24
+wage_target_6,ElasticTuned,holdout,0.21926665654071062,0.16937255578267277,24

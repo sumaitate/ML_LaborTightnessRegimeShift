@@ -1,0 +1,9 @@
+Variable,Regime,ADF_Statistic,P_Value,Lags_Used,Critical_5pct,Stationary_5pct
+jolts_ratio,Pre-2020,-1.2358,0.658,11,-2.875,No
+jolts_ratio,Post-Pandemic (2021+),-0.4089,0.9086,2,-2.9179,No
+unemployment_rate,Pre-2020,-2.1622,0.2202,6,-2.874,No
+unemployment_rate,Post-Pandemic (2021+),-3.6273,0.0053,1,-2.9157,Yes
+ahe_private_12m_pct,Pre-2020,-1.0738,0.7254,13,-2.8824,No
+ahe_private_12m_pct,Post-Pandemic (2021+),-0.7264,0.8398,2,-2.9157,No
+cpi_all_12m_pct,Pre-2020,-2.5658,0.1003,15,-2.8753,No
+cpi_all_12m_pct,Post-Pandemic (2021+),-2.7363,0.068,7,-2.9226,No

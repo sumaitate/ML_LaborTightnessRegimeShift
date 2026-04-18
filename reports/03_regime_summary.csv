@@ -1,0 +1,6 @@
+,jolts_ratio,jolts_ratio,jolts_ratio,jolts_ratio,jolts_ratio,log_jolts_ratio,log_jolts_ratio,log_jolts_ratio,log_jolts_ratio,log_jolts_ratio,quits_rate,quits_rate,quits_rate,quits_rate,quits_rate,unemployment_rate,unemployment_rate,unemployment_rate,unemployment_rate,unemployment_rate,ahe_12m_pct,ahe_12m_pct,ahe_12m_pct,ahe_12m_pct,ahe_12m_pct,cpi_12m_pct,cpi_12m_pct,cpi_12m_pct,cpi_12m_pct,cpi_12m_pct,pce_12m_pct,pce_12m_pct,pce_12m_pct,pce_12m_pct,pce_12m_pct
+,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max
+regime,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pandemic Shock (2020-2021H1),17,0.6892,0.3092,0.1995,1.2138,17,-0.4843,0.5165,-1.6118,0.1938,17,2.2059,0.3112,1.5,2.7,17,7.5176,3.1463,3.5,14.8,17,4.3808,1.612,0.5974,7.7854,17,1.7319,1.2217,0.198,4.8011,17,1.5849,0.9817,0.4614,3.9917
+Post-Pandemic (2021-06+),56,1.3771,0.3567,0.873,2.039,56,0.2868,0.2604,-0.1358,0.7124,57,2.3579,0.353,1.9,3.0,57,4.0193,0.4775,3.4,5.9,58,4.3543,0.5928,3.4566,5.7269,57,4.444,2.0558,2.2988,8.5988,57,3.9168,1.5644,2.2356,6.9932
+Pre-2020,229,0.5594,0.2841,0.1529,1.2419,229,-0.714,0.5312,-1.8782,0.2166,229,1.9074,0.3,1.2,2.4,240,5.8812,1.8095,3.5,10.0,154,2.4821,0.5418,1.6261,3.6655,228,2.0802,1.2151,-1.9782,5.3517,228,1.779,0.9713,-1.4769,4.0524

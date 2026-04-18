@@ -1,0 +1,15 @@
+metric,value
+total_observations,316
+total_columns,178
+pre_2020_observations,240
+shock_observations,17
+post_observations,59
+wage_forward_3_obs,238
+wage_forward_6_obs,235
+wage_forward_12_obs,229
+cpi_forward_3_obs,310
+cpi_forward_6_obs,308
+cpi_forward_12_obs,302
+pce_forward_3_obs,311
+pce_forward_6_obs,308
+pce_forward_12_obs,302

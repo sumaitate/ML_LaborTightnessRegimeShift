@@ -1,0 +1,6 @@
+,jolts_ratio,jolts_ratio,jolts_ratio,jolts_ratio,jolts_ratio,unemployment_rate,unemployment_rate,unemployment_rate,unemployment_rate,unemployment_rate,quits_rate,quits_rate,quits_rate,quits_rate,quits_rate
+,count,mean,std,min,max,count,mean,std,min,max,count,mean,std,min,max
+regime,,,,,,,,,,,,,,,
+Pandemic Shock (2020-2021H1),17,0.6892,0.3092,0.1995,1.2138,17,7.5176,3.1463,3.5,14.8,17,2.2059,0.3112,1.5,2.7
+Post-Pandemic (2021-06+),56,1.3771,0.3567,0.873,2.039,57,4.0193,0.4775,3.4,5.9,57,2.3579,0.353,1.9,3.0
+Pre-2020,229,0.5594,0.2841,0.1529,1.2419,240,5.8812,1.8095,3.5,10.0,229,1.9074,0.3,1.2,2.4

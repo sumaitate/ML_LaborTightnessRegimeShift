@@ -1,0 +1,7 @@
+audit_name,audit_value,audit_pass
+target_list_present,9,True
+no_horizon_zero_targets,0,True
+no_scaled_cols,0,True
+no_duplicate_cols,0,True
+regime_cols_present,0,True
+no_post_interaction_main,0,True

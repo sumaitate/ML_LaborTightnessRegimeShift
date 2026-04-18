@@ -1,0 +1,6 @@
+group,count,col_list
+tightness,14,"jolts_ratio, log_jolts_ratio, jolts_ratio_lag_1, jolts_ratio_lag_3, jolts_ratio_lag_6, log_jolts_ratio_lag_1, log_jolts_ratio_lag_3, log_jolts_ratio_lag_6, log_jolts_ratio_chg_1, log_jolts_ratio_chg_3, log_jolts_ratio_chg_6, log_jolts_ratio_std_3, log_jolts_ratio_std_6, log_jolts_ratio_std_12"
+labor,14,"unemployment_rate, unemployment_rate_lag_1, unemployment_rate_lag_3, unemployment_rate_lag_6, unemployment_rate_chg_1, unemployment_rate_chg_3, unemployment_rate_chg_6, quits_rate, quits_rate_lag_1, quits_rate_lag_3, quits_rate_lag_6, quits_rate_chg_1, quits_rate_chg_3, quits_rate_chg_6"
+macro,15,"fed_funds, fed_funds_lag_1, fed_funds_lag_3, fed_funds_chg_1, fed_funds_chg_3, consumer_sentiment, consumer_sentiment_lag_1, consumer_sentiment_lag_3, consumer_sentiment_chg_1, consumer_sentiment_chg_3, hy_oas, hy_oas_lag_1, hy_oas_lag_3, hy_oas_chg_1, hy_oas_chg_3"
+state,3,"high_inflation, tight_labor, credit_stress"
+interaction,12,"log_jolts_ratio_x_high_inflation, log_jolts_ratio_x_tight_labor, log_jolts_ratio_x_credit_stress, jolts_ratio_x_high_inflation, jolts_ratio_x_tight_labor, jolts_ratio_x_credit_stress, quits_rate_x_high_inflation, quits_rate_x_tight_labor, quits_rate_x_credit_stress, unemployment_rate_x_high_inflation, unemployment_rate_x_tight_labor, unemployment_rate_x_credit_stress"

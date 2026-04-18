@@ -1,0 +1,13 @@
+col,has_leak
+log_jolts_ratio_x_high_inflation,False
+log_jolts_ratio_x_tight_labor,False
+log_jolts_ratio_x_credit_stress,False
+jolts_ratio_x_high_inflation,False
+jolts_ratio_x_tight_labor,False
+jolts_ratio_x_credit_stress,False
+quits_rate_x_high_inflation,False
+quits_rate_x_tight_labor,False
+quits_rate_x_credit_stress,False
+unemployment_rate_x_high_inflation,False
+unemployment_rate_x_tight_labor,False
+unemployment_rate_x_credit_stress,False

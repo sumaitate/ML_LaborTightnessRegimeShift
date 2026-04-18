@@ -1,5 +1,4 @@
-source,cols_added,total_cols
-atlanta,16,95
-philly_ruc,20,115
-philly_cpi,20,135
-cpi_5yr_expectations,1,136
+source,cols_added,total_cols,total_rows
+atlanta,16,95,316
+philly_ruc,20,115,316
+philly_cpi,20,135,316

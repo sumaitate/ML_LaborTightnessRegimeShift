@@ -1,0 +1,10 @@
+target_name,break_name,f_value,p_value,left_rows,right_rows
+wage_target_3,candidate_2020_01,-9.146680060866406e-15,1.0,166,72
+wage_target_6,candidate_2020_01,-6.4299184902075994e-15,1.0,166,69
+wage_target_12,candidate_2020_01,8.596907885115835e-15,1.0,166,63
+cpi_target_3,candidate_2020_01,-1.608081424469088e-14,1.0,229,70
+cpi_target_6,candidate_2020_01,0.0,1.0,229,68
+cpi_target_12,candidate_2020_01,0.0,1.0,229,62
+pce_target_3,candidate_2020_01,1.5511010409473402e-14,1.0,229,71
+pce_target_6,candidate_2020_01,0.0,1.0,229,68
+pce_target_12,candidate_2020_01,0.0,1.0,229,62

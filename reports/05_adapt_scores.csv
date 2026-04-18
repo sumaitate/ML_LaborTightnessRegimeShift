@@ -1,0 +1,10 @@
+target_name,model_name,feature_name,split_name,rmse_value,mae_value,row_count
+wage_target_3,NeuralNet,tightness,post_refit,1.8913860284581698,1.4725674903635653,55
+wage_target_6,Lasso,macro,post_refit,0.604473273784685,0.5022398878906713,52
+wage_target_12,Ridge,macro,post_refit,0.426767294395547,0.330366882160222,46
+cpi_target_3,NeuralNet,labor,post_refit,2.7194790410748686,1.9157351071573079,53
+cpi_target_6,NeuralNet,tightness,post_refit,1.3670294607369275,1.0248880742537263,51
+cpi_target_12,NeuralNet,labor,post_refit,1.4868443656848804,1.068886231925945,45
+pce_target_3,NeuralNet,labor,post_refit,1.9437353037480127,1.454246504239113,54
+pce_target_6,Lasso,state,post_refit,1.9675041718933513,1.434761193036924,51
+pce_target_12,NeuralNet,labor,post_refit,1.2782154582580454,0.9667862744735986,45

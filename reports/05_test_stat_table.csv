@@ -1,0 +1,10 @@
+target_name,test_name,split_name,base_name,alt_name,stat_value,p_value,row_count
+wage_target_3,DieboldMariano,post_test,Ridge,RandomForest,-6.799685647291581,1.0484724199955053e-11,880
+wage_target_6,DieboldMariano,post_test,Ridge,RandomForest,-4.373222506174373,1.224258316012694e-05,832
+wage_target_12,DieboldMariano,post_test,Ridge,RandomForest,-4.975092686218172,6.521642765822122e-07,736
+cpi_target_3,DieboldMariano,post_test,Ridge,RandomForest,4.616125950811508,3.909697202875151e-06,848
+cpi_target_6,DieboldMariano,post_test,Ridge,RandomForest,5.547973732385454,2.8899928228298677e-08,816
+cpi_target_12,DieboldMariano,post_test,Ridge,RandomForest,5.327515475233101,9.956529822829907e-08,720
+pce_target_3,DieboldMariano,post_test,Ridge,RandomForest,7.04470530883339,1.858513343222512e-12,864
+pce_target_6,DieboldMariano,post_test,Ridge,RandomForest,6.5297195198956,6.589306877913259e-11,816
+pce_target_12,DieboldMariano,post_test,Ridge,RandomForest,5.147107093847098,2.64534317118148e-07,720
