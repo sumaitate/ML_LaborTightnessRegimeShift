@@ -1,0 +1,6 @@
+pre_feature,regime,pre_importance,post_feature,regime,post_importance
+pce_target_12_lag,pre,0.9432510374258005,wage_target_6_lag,post,0.6119663201717451
+pce_target_6_lag,pre,0.876232395886233,cpi_target_6_lag,post,0.47312906372041175
+cpi_target_6_lag,pre,0.8008569097558186,wage_target_3_lag,post,0.46385763454839235
+cpi_target_12_lag,pre,0.7907692739988578,quits_rate,post,0.2011962554827705
+cpi_target_3_lag,pre,0.6718199844861902,fed_funds,post,0.08978122014311979
